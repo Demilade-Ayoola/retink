@@ -1,0 +1,14 @@
+.body{
+    font-family:'Poppins'
+    
+}
+button{
+transition: .2s ease-in-out 0s;
+}
+button:hover{
+   cursor: pointer;
+   transform: scale(1.10);
+}
+.brand{
+    color: #7E1CFE;
+}

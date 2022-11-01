@@ -1,7 +1,48 @@
 .main-box{
 width: 300px;
-height: 360px;
+height: 300px;
 background: #FFFFFF;
 box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.1);
-border-radius: 20px;
+display:flex;
+margin: 0.5rem 0.5rem;
+padding: 0.75rem 0.5rem;
+ flex-direction:column;
+align-items: center;
+justify-content: center;
+ border-radius: 20px;
+text-align: center;
+}
+.main-section{
+    display:flex;
+     justify-content:center;
+      flex-direction: column;
+       align-items:center;
+       margin-top: 1rem;
+}
+.exp-vid{
+    display: flex;
+}
+.exp-img{
+    flex: 1 1 0%;
+ height:300px;
+    width: 60%;
+}
+.box-div{
+    display:flex; 
+    flex-wrap:wrap;
+     justify-content:center;
+     margin: 1rem 0rem;
+}
+
+.main-box-img{
+    width:70px;
+    height:70px;
+   }
+
+@media only screen and (max-width:750px){
+    .exp-img{
+        flex: 1 1 0%;
+        width: 80% !important;
+    }
+
 }
