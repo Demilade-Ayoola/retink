@@ -1,6 +1,6 @@
-.body{
-    font-family:'Poppins'
-    
+body{
+    font-family:'Poppins';
+  overflow-x: hidden !important;  
 }
 button{
 transition: .2s ease-in-out 0s;
