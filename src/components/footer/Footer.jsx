@@ -9,7 +9,7 @@ function Footer() {
         <div className="col-sm-6 col-12 flecx col-md-6">
          <div><img className='retink-logo' src='./RetinkLogo.png' alt='retink logo'/>
  </div>
- <div className='addpad'>
+ <div className='addpadd'>
 <div className="addflex"> 
   <h5 className='footer-heading'>Product by Retink Media UG</h5>
  <h5 className='footer-heading'>Bonn, Germany</h5>
@@ -35,7 +35,7 @@ function Footer() {
          </div>
     </div>
     <div className="footer-container">
-      <div className="row">
+      <div className="row copyright-row">
         <div className="col-md-8 col-sm-6 col-12">
           <p className="copyright-text">Copyright &copy; 2021 Retink.
           </p>

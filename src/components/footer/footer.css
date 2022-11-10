@@ -28,6 +28,16 @@ color: #131313;
   display:flex;
   text-align: left;
 }
+.copyright-row{
+  margin: 0 !important;
+    padding: 0 !important;
+}
+.addpadd{
+  display:flex;
+  text-align: left;
+width: 80%;
+}
+
 .icons{
   margin:4px;
 }

@@ -13,8 +13,8 @@ function App() {
     <>
     <Router>
     <Header/>
-    <Main/>
- <Footer/>
+    <Main/> 
+<Footer/> 
     </Router>
    
    
